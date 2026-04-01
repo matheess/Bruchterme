@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gleichungsaufgaben – Lösungen</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+          onload="renderMathInElement(document.body,{
+            delimiters:[{left:'\\(',right:'\\)',display:false}],
+            throwOnError:false
+          })"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 15px; line-height: 1.6; color: #1a1a1a;
+      background: #f7f6f2; padding: 2.5rem 1.5rem;
+    }
+    .page { max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    table {
+      width: 100%; border-collapse: collapse;
+      background: #fff; border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.07); overflow: hidden;
+    }
+    thead { background: #1a1a1a; color: #fff; }
+    thead th { padding: 0.75rem 1rem; text-align: left; font-weight: 600;
+               font-size: 0.85rem; letter-spacing: .04em; }
+    tbody tr:nth-child(even) { background: #f9f8f5; }
+    tbody tr:hover           { background: #eef6f5; }
+    td { padding: 0.7rem 1rem; vertical-align: middle; }
+    .nr   { width: 3rem; color: #999; font-size: 0.85rem;
+            text-align: right; padding-right: 1rem; }
+    .diff { width: 7.5rem; }
+    .sol  { width: 14rem; color: #01696f; }
+    .text-sol { color: #555; font-style: italic; font-size: 0.88rem; }
+    .gm-link {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 1.8rem; height: 1.8rem;
+      background: #f0f7f6; border: 1px solid #b5d4d0; border-radius: 6px;
+      color: #01696f; font-size: 0.85rem; text-decoration: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .gm-link:hover { background: #d8efec; border-color: #01696f; }
+    .gm-col { width: 3.5rem; text-align: center; }
+    .bar-wrap { display: flex; align-items: center; gap: 0.4rem; }
+    .bar-bg   { flex: 1; height: 7px; background: #e5e5e5;
+                border-radius: 4px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 4px;
+                background: linear-gradient(90deg, #01696f, #6daa45); }
+    .bar-val  { font-size: 0.8rem; color: #555; min-width: 2.2rem;
+                text-align: right; }
+
+    /* Druckkopfzeile: im Browser unsichtbar, beim Drucken sichtbar */
+    .print-header {
+      display: none;
+      justify-content: space-between;
+      font-size: 0.8rem; color: #555;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem; margin-bottom: 1.2rem;
+    }
+
+    @media print {
+      body  { background: #fff; padding: 0; font-size: 13px; }
+      .page { max-width: 100%; }
+      table { box-shadow: none; border: 1px solid #bbb;
+              page-break-inside: auto; }
+      thead { background: #222 !important;
+              -webkit-print-color-adjust: exact;
+              print-color-adjust: exact; }
+      tr    { page-break-inside: avoid; }
+      .print-header { display: flex; }
+      @page { margin: 1.8cm 2cm; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+<div class="print-header">
+  <span>Gleichungsaufgaben – Lösungen</span>
+  <span>Erstellt am 01.04.2026</span>
+</div>
+<h1>Gleichungsaufgaben – Lösungen</h1>
+<p class="subtitle">Erstellt am 01.04.2026 &mdash; 10 Aufgaben</p>
+<table>
+  <thead>
+    <tr>
+      <th class="nr">#</th>
+      <th>Gleichung</th>
+      <th class="diff">Schwierigkeit</th>
+      <th class="sol">Lösung</th>
+      <th class="gm-col"></th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td class="nr">1.</td>
+    <td>\(-2x - (1 + x)(1 - x) = 4x + 2 - (2 + x)^{2} + 2x^{2}\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:60.0%"></div></div>
+        <span class="bar-val">3</span>
+      </div></td>
+    <td class="sol">\(x = 0{,}5\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-2x%20-%20(1%20%2B%20x)(1%20-%20x)%20%3D%204x%20%2B%202%20-%20(2%20%2B%20x)%5E%7B2%7D%20%2B%202x%5E%7B2%7D" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">2.</td>
+    <td>\(4x + 4 - (-48x + 3) + x^{2} = -+ (x + 1)^{2}\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:54.0%"></div></div>
+        <span class="bar-val">2,7</span>
+      </div></td>
+    <td class="sol">\(x = 0\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=4x%20%2B%204%20-%20(-48x%20%2B%203)%20%2B%20x%5E%7B2%7D%20%3D%20-%2B%20(x%20%2B%201)%5E%7B2%7D" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">3.</td>
+    <td>\(x^{2} - 12x - 3(2 - 4x) = -1 + (x + 2)(x - 2) - 1\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:56.0%"></div></div>
+        <span class="bar-val">2,8</span>
+      </div></td>
+    <td class="sol"><span class="text-sol">L = ℝ (unendlich viele Loesungen)</span></td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=x%5E%7B2%7D%20-%2012x%20-%203(2%20-%204x)%20%3D%20-1%20%2B%20(x%20%2B%202)(x%20-%202)%20-%201" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">4.</td>
+    <td>\(-1 - (46x - 13) - 2x(-8x - 1) - x = (4 - 4x)^{2} + 4(2 - 3x) - 1\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:60.0%"></div></div>
+        <span class="bar-val">3</span>
+      </div></td>
+    <td class="sol">\(x = -11\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-1%20-%20(46x%20-%2013)%20-%202x(-8x%20-%201)%20-%20x%20%3D%20(4%20-%204x)%5E%7B2%7D%20%2B%204(2%20-%203x)%20-%201" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">5.</td>
+    <td>\(-9 - (2x - 6) - (-4x - 2) - 4x = 3 - 2x\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:36.0%"></div></div>
+        <span class="bar-val">1,8</span>
+      </div></td>
+    <td class="sol"><span class="text-sol">keine Loesung</span></td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-9%20-%20(2x%20-%206)%20-%20(-4x%20-%202)%20-%204x%20%3D%203%20-%202x" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">6.</td>
+    <td>\(-x^{2} - 4x + 4(3x - 2) + (3 + x)^{2} = -1 + 18x\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:54.0%"></div></div>
+        <span class="bar-val">2,7</span>
+      </div></td>
+    <td class="sol">\(x = 0{,}5\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-x%5E%7B2%7D%20-%204x%20%2B%204(3x%20-%202)%20%2B%20(3%20%2B%20x)%5E%7B2%7D%20%3D%20-1%20%2B%2018x" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">7.</td>
+    <td>\(-1 - (2x - 2) - (4x + 1) + 5x = 14\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:34.0%"></div></div>
+        <span class="bar-val">1,7</span>
+      </div></td>
+    <td class="sol">\(x = -14\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-1%20-%20(2x%20-%202)%20-%20(4x%20%2B%201)%20%2B%205x%20%3D%2014" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">8.</td>
+    <td>\((4 + x)^{2} - x + 1 = 8x + x^{2} + 3\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:40.0%"></div></div>
+        <span class="bar-val">2</span>
+      </div></td>
+    <td class="sol">\(x = 14\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=(4%20%2B%20x)%5E%7B2%7D%20-%20x%20%2B%201%20%3D%208x%20%2B%20x%5E%7B2%7D%20%2B%203" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">9.</td>
+    <td>\(-2(2x + 1) - x^{2} - 3x + (3 + x)^{2} = -2\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:48.0%"></div></div>
+        <span class="bar-val">2,4</span>
+      </div></td>
+    <td class="sol">\(x = 9\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-2(2x%20%2B%201)%20-%20x%5E%7B2%7D%20-%203x%20%2B%20(3%20%2B%20x)%5E%7B2%7D%20%3D%20-2" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  <tr>
+    <td class="nr">10.</td>
+    <td>\(-2(-6x + 17) + 3(-4x + 2) - 4x = 4(-3x + 3) + (12x - 22) - 2\)</td>
+    <td class="diff"><div class="bar-wrap">
+        <div class="bar-bg"><div class="bar-fill" style="width:50.0%"></div></div>
+        <span class="bar-val">2,5</span>
+      </div></td>
+    <td class="sol">\(x = -4\)</td>
+    <td class="gm-col"><a href="https://graspablemath.com/canvas/embed.html?options={%22use_toolbar%22:false,%22vertical_scroll%22:false,%22preview_mode%22:false,%22formula_panel%22:false}&eq=-2(-6x%20%2B%2017)%20%2B%203(-4x%20%2B%202)%20-%204x%20%3D%204(-3x%20%2B%203)%20%2B%20(12x%20-%2022)%20-%202" target="_blank" rel="noopener noreferrer" class="gm-link" title="In Graspable Math öffnen">↗</a></td>
+  </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
