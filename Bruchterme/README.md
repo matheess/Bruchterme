@@ -1,3 +1,12 @@
 # Bruchterme
 ## Schwierigkeitsstufe 1
-[AB 01](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/001.1%20bruchterme_aufgaben_loesungen.html){:target="_blank" rel="noopener"}
+[AB 01](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/001.1%20bruchterme_aufgaben_loesungen.html)
+[AB 02](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/002.1%20bruchterme_aufgaben_loesungen.html)
+[AB 03](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/003.1%20bruchterme_aufgaben_loesungen.html)
+[AB 04](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/004.1%20bruchterme_aufgaben_loesungen.html)
+[AB 05](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/005.1%20bruchterme_aufgaben_loesungen.html)
+[AB 06](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/006.1%20bruchterme_aufgaben_loesungen.html)
+[AB 07](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/007.1%20bruchterme_aufgaben_loesungen.html)
+[AB 08](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/008.1%20bruchterme_aufgaben_loesungen.html)
+[AB 09](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/009.1%20bruchterme_aufgaben_loesungen.html)
+[AB 10](https://matheess.github.io/Terme-und-Gleichungen/Bruchterme/010.1%20bruchterme_aufgaben_loesungen.html)
